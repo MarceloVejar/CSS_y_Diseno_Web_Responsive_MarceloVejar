@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Comenzando con la fotografía</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <style media="screen">
+      #retrato1{
+        -webkit-filter:blur(10px);
+        filter:blur(10px);
+      }
+
+      #retrato2, #retrato4, #retrato6{
+        -webkit-filter:grayscale(100%);
+        filter: grayscale(100%);
+      }
+      #retrato3{
+        -webkit-filter:sepia(90%);
+        filter: sepia(90%);
+      }
+      header{
+        animation: AnimacionSlidein 4s;
+      }
+
+      @-webkit-keyframes AnimacionSlidein{
+        0%{
+          margin-top: 150%;
+        }
+        60%{
+          margin-top: -5%;
+        }
+        100%{
+          margin-top: 0
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="CONTENEDOR">
+    <header>
+      <nav>
+        <div class="header">
+          <style type="text/css">
+            a:link{
+              text-decoration: none;
+              color: white;
+            }
+          </style>
+          <div class="titulo">
+            <h2>Comenzando en la fotografía</h2>
+          </div>
+          <div class="Inicio">
+            <a href="../index.html">Inicio</a>
+          </div>
+          <div class="Paisajes">
+              <a href="../html/paisajes.html">Paisajes</a>
+          </div>
+          <div class="Retratos">
+              <a href="../html/retratos.html">Retratos</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="GaleriaRetratos">
+      <div id="retrato1" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+      <div id="retrato2" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+      <div id="retrato3" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+      <div id="retrato4" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+      <div id="retrato5" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+      <div id="retrato6" class="retrato">
+        <img src="../img/imagen3.jpg" alt="retrato">
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="contacto">
+          <h2>Contacto</h2>
+          <h3>corre@falso.com</h3>
+          <h3>Calle No Existe #123</h3>
+          <h3>Teléfono: 919191919</h3>
+        </div>
+        <div class="terminos">
+          <h2>Términos</h2>
+          <h3>Conoce nuestros términos y condiciones</h3>
+        </div>
+        <div class="redessociales">
+          <h2>Redes sociales</h2>
+          <h3>Comparte en nuestras redes</h3>
+          <h3><img src="../img/icono_face.png" alt="">Comenzando fotografía</h3>
+          <h3><img src="../img/icono_twitter.png" alt="">Comenzando fotografía </h3>
+          <h3><img src="../img/icono_instagram.png" alt="">Comenzando fotografía </h3>
+        </div>
+        <div class="derechos">
+          <h2>Derechos</h2>
+          <h3>copyright - 2018</h3>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  </body>
+</html>
